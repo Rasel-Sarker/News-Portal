@@ -1,0 +1,145 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+a {
+   text-decoration: none;
+}
+body {
+   padding: 0 100px;
+   background-color: #f6f6f7;
+}
+#container {
+   width: 1100px;
+   margin: 0 auto;
+}
+/* nav bar section */
+#nav-section {
+   padding: 25px 0;
+}
+#navbar {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 30px;
+}
+#site-name {
+   font-size: 20px;
+}
+#top-img {
+   border-radius: 50%;
+   border: 2px solid #101e2c;
+   padding: 5px;
+}
+#site-name-colorful-part {
+   background-color: rgb(86, 86, 197);
+   padding: 10px 15px;
+   border-radius: 5px;
+   color: white;
+}
+#navbar-right {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 0 15px;
+}
+#navbar-right a {
+   font-size: 18px;
+}
+#line {
+   width: 1100px;
+   margin: auto;
+}
+/* menu item section start here */
+#menu-section {
+   margin-top: 20px;
+   padding: 15px 0;
+}
+#menu-items a {
+   font-size: 20px;
+   margin-right: 10px;
+   color: #909091;
+}
+/* news counting section */
+#counting-news-section {
+   margin: 20px 0;
+}
+#news-counting {
+   padding: 20px 20px;
+   background-color: white;
+   border-radius: 5px;
+}
+#news-counting-text {
+   font-size: 20px;
+}
+/* news gallery */
+.single-news {
+   display: grid;
+   grid-template-columns: 1fr 4fr;
+   /* justify-content: center; */
+   padding: 30px;
+   background-color: white;
+   margin: 30px 0px;
+   gap: 30px;
+   border-radius: 10px;
+}
+#single-news-image img {
+   border-radius: 10px;
+}
+#single-news-des {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+#single-news-des-footer {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   justify-items: stretch;
+   align-items: center;
+}
+#blog-image img {
+   background-color: #d4d4d5;
+   padding: 5px;
+   border-radius: 50%;
+}
+#view {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+}
+#details-btn {
+   padding: 10px 15px;
+   background-color: rgb(94, 94, 225);
+   border-radius: 5px;
+   border: 0;
+   cursor: pointer;
+   font-weight: bold;
+   color: white;
+}
+#bloger {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+}
+#rate img {
+   margin-right: 10px;
+}
+#single-news-des-title {
+   font-size: 25px;
+   margin-bottom: 15px;
+}
+#single-news-des-para {
+   color: #949494;
+   line-height: 1.3;
+   text-align: justify;
+}
+/* footer section */
+#footer-section {
+   color: #909091;
+   text-align: center;
+   padding: 20px 20px;
+}
